@@ -1,0 +1,91 @@
+.dashboard-header {
+  width: 1440px;
+  height: 83px;
+  color: #ffffff;
+}
+
+.dashboard-container {
+  background-color: #ffffff ;
+  padding: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  display: flex; /* Use flex display */
+  flex-direction: column; /* Arrange elements in a column */
+  align-items: center; /* Center items horizontally */
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%; /* Make the button container span the full width */
+}
+
+.dashboard-button {
+  margin-top: 10px ;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.dashboard-button2 {
+  margin-top: 10px ;
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #ffffff;
+  font-weight: bold;
+  color: #3f74c4;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dashboard-button3 {
+  margin-top: 10px;
+  margin-right: 12px; /* Add margin to create space */
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3f74c4;
+  font-weight: bold;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dashboard-button4 {
+  display: flex; /* Use Flexbox */
+  align-items: center; /* Center vertically */
+  background-color: #202020;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  text-decoration: none;
+}
+
+.dashboard-logo2 {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  display: block; /* Ensure the image is treated as a block */
+}
+
+.dashboard-logo {
+  margin-top: 10px;
+  margin-left: 80px;
+  width: 277px;
+  height: 64px;
+  margin-bottom: 10px;
+}

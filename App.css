@@ -1,0 +1,13 @@
+
+.App-content {
+  background-color: #ffffff;
+  padding: 20px; /* Add padding to content area */
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px 0; /* Add padding to header area */
+  font-size: calc(10px + 2vmin);
+  color: #ffffff;
+}
+
